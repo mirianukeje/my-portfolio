@@ -24,3 +24,8 @@ a {
   background: #9b5e75;
   color: #ffffff;
 }
+
+/* Safety rule: never show a contact form in this portfolio version */
+#contact form {
+  display: none !important;
+}
