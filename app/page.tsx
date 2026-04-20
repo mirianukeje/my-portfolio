@@ -2,8 +2,6 @@ import Navbar from "@/components/navbar";
 import Projects from "@/components/project";
 
 export default function Home() {
-  const formspreeEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
-
   return (
     <main className="min-h-screen bg-[#F8F5F2] text-[#111111]">
       <Navbar />
@@ -84,9 +82,9 @@ export default function Home() {
 
       <section id="contact" className="px-6 pb-20 pt-10 md:px-10 md:pb-28">
         <div className="mx-auto max-w-6xl rounded-3xl bg-[#201A21] p-8 text-white md:p-12">
-          <div>
+          <div className="lg:pt-2">
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">Let&apos;s Build Something Meaningful</h2>
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-[#D7CFD8] md:text-base">
+            <p className="mt-4 max-w-xl text-sm leading-7 text-[#D7CFD8] md:text-base">
               If you&apos;re building a product and need a UI/UX designer and fullstack developer to design and build seamless user experiences,
               I&apos;d love to collaborate with you.
             </p>
@@ -104,54 +102,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-
-          <form
-            className="mt-8 w-full rounded-2xl border border-white/25 bg-white/10 p-5 md:max-w-2xl md:p-6"
-            action={formspreeEndpoint || undefined}
-            method="POST"
-          >
-            <h3 className="text-lg font-semibold">Leave a Message</h3>
-            <input type="hidden" name="_subject" value="New Portfolio Message" />
-            <div className="mt-4 space-y-3">
-              <label className="block">
-                <span className="mb-1 block text-xs font-medium uppercase tracking-[0.08em] text-[#D7CFD8]">Name</span>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Your name"
-                  className="w-full rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-[#C3BBC4] focus:border-white/60 focus:outline-none"
-                />
-              </label>
-
-              <label className="block">
-                <span className="mb-1 block text-xs font-medium uppercase tracking-[0.08em] text-[#D7CFD8]">Email</span>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="you@example.com"
-                  className="w-full rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-[#C3BBC4] focus:border-white/60 focus:outline-none"
-                />
-              </label>
-
-              <label className="block">
-                <span className="mb-1 block text-xs font-medium uppercase tracking-[0.08em] text-[#D7CFD8]">Message</span>
-                <textarea
-                  name="message"
-                  rows={4}
-                  placeholder="Write your message..."
-                  className="w-full resize-none rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-[#C3BBC4] focus:border-white/60 focus:outline-none"
-                />
-              </label>
-            </div>
-
-            <button
-              type="submit"
-              disabled={!formspreeEndpoint}
-              className="mt-4 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-[#1F1820] transition hover:bg-[#F4EFF2]"
-            >
-              Send Message
-            </button>
-          </form>
         </div>
       </section>
     </main>
