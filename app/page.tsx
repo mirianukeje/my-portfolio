@@ -46,22 +46,22 @@ export default function Home() {
               user goals, then translating those insights into clear flows and polished, functional experiences.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="rounded-2xl bg-[#F6EEF2] p-5">
+          <div className="grid grid-cols-2 items-start gap-3">
+            <div className="rounded-2xl bg-[#F6EEF2] p-4">
               <p className="text-xs uppercase tracking-[0.15em] text-[#7B6A74]">Focus</p>
-              <p className="mt-2 text-lg font-semibold text-[#312434]">Product & User Experience</p>
+              <p className="mt-1.5 text-sm font-semibold text-[#312434] md:text-base">Product & User Experience</p>
             </div>
-            <div className="rounded-2xl bg-[#EEF2F6] p-5">
+            <div className="rounded-2xl bg-[#EEF2F6] p-4">
               <p className="text-xs uppercase tracking-[0.15em] text-[#5F6670]">Tools</p>
-              <p className="mt-2 text-lg font-semibold text-[#2D343D]">Figma, TypeScript, React</p>
+              <p className="mt-1.5 text-sm font-semibold text-[#2D343D] md:text-base">Figma, TypeScript, React</p>
             </div>
-            <div className="rounded-2xl bg-[#F6F1EC] p-5">
+            <div className="rounded-2xl bg-[#F6F1EC] p-4">
               <p className="text-xs uppercase tracking-[0.15em] text-[#7B6954]">Strength</p>
-              <p className="mt-2 text-lg font-semibold text-[#3A2F25]">Design + Development Integration</p>
+              <p className="mt-1.5 text-sm font-semibold text-[#3A2F25] md:text-base">Design + Development Integration</p>
             </div>
-            <div className="rounded-2xl bg-[#EEF6F2] p-5">
+            <div className="rounded-2xl bg-[#EEF6F2] p-4">
               <p className="text-xs uppercase tracking-[0.15em] text-[#5E7468]">Approach</p>
-              <p className="mt-2 text-lg font-semibold text-[#2A3A33]">User-first, iterative design</p>
+              <p className="mt-1.5 text-sm font-semibold text-[#2A3A33] md:text-base">User-first, iterative design</p>
             </div>
           </div>
         </div>
