@@ -1,0 +1,53 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Users\Mirian\AppData\Local\nvm\v24.11.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Mirian\Desktop\my portfolio\.npmrc
+5 silly config load:file:C:\Users\Mirian\.npmrc
+6 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--loglevel" "verbose" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Mirian\Desktop\my portfolio\.npm-cache\_logs\2026-04-18T22_08_58_508Z-
+10 verbose logfile C:\Users\Mirian\Desktop\my portfolio\.npm-cache\_logs\2026-04-18T22_08_58_508Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest next@^15.3.1
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 13796ms
+17 http fetch GET 200 https://registry.npmjs.org/next 35814ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/next set size:undefined disposed:false
+19 silly fetch manifest @opentelemetry/api@^1.1.0
+20 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 869ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+23 silly fetch manifest @playwright/test@^1.51.1
+24 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 69520ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:undefined disposed:false
+27 silly fetch manifest babel-plugin-react-compiler@*
+28 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 1473ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:undefined disposed:false
+31 silly fetch manifest react@^19.0.0
+32 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/react 56591ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+35 silly fetch manifest react-dom@^19.0.0
+36 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/react-dom 26677ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+39 silly fetch manifest sass@^1.3.0
+40 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+41 verbose cwd C:\Users\Mirian\Desktop\my portfolio
+42 verbose os Windows_NT 10.0.26200
+43 verbose node v24.11.0
+44 verbose npm  v11.6.1
+45 notice
+45 notice New minor version of npm available! 11.6.1 -> 11.12.1
+45 notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1
+45 notice To update run: npm install -g npm@11.12.1
+45 notice  { force: true, Symbol(proc-log.meta): true }
+46 verbose exit 1
+47 verbose code 1
+48 error A complete log of this run can be found in: C:\Users\Mirian\Desktop\my portfolio\.npm-cache\_logs\2026-04-18T22_08_58_508Z-debug-0.log

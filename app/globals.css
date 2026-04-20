@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(circle at 8% 8%, #f3dfe7 0%, transparent 35%),
+    radial-gradient(circle at 88% 16%, #dce5ee 0%, transparent 33%),
+    #f8f5f2;
+  color: #111111;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+::selection {
+  background: #9b5e75;
+  color: #ffffff;
+}
